@@ -12,5 +12,15 @@ body{
 }
 
 .content{
-    flex: 7;
+    flex: 5;
+    display: flex;
+    flex-direction: column;
+}
+
+.addticket{
+    height: max(20vh, 100px);
+}
+
+.tickets{
+    flex : 5;
 }
