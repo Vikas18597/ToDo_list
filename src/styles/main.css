@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(241, 241, 181);
+}
+
+.seperation{
+    display: flex;
+    flex-direction: row;
+}
+
+.Status{
+    flex: 1;
+}
+
+.content{
+    flex: 7;
+}
