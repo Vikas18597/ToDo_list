@@ -5,9 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TODO list</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="seperation">
+    <div class="left-section">
         <div class="Status">
             <div class="title-status">
                 STATUS
@@ -19,17 +22,45 @@
                 <p class="done">
                     No of tickets completed :
                 </p>
-            </div>
+            </div>    
         </div>
-            
-        <div class="content">
-            <div class="addticket">
-                This is where ticket is added 
-            </div>
-            <div class="tickets">
-                Show all the tickets here
-            </div>
+        <div class="overview">
+            <p class="today">Today</p>
+            <p class="tomorrow">Tomorrow</p>
+            <p class="endofweek">End of week</p>
         </div>
     </div>
+    <div class="right-section">
+        <div class="add-ticket">
+            <form>
+                <label for="new-title"><h2>Title</h2></label>
+                <input type="text" id="new-title" placeholder="Title"><br>
+                <label for="new-Description">Description</label><br>
+                <input type="text" id="new-Description"><br>
+                <label for="new-Date">Date</label><br>
+                <input type="text" id="new-Date">
+              </form>     
+            <button class="ticket">
+                Add
+            </button>
+        </div>
+        <div class="tickets">
+            <li>
+                <a href="#"> 
+                    <h2>Title #1</h2>
+                    <p>Description</p>
+                    <p>Date</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <h2>Title #2</h2>
+                    <p>Description</p>
+                    <p>Date</p>
+                </a>
+            </li>          
+        </div>
+    </div>
+
 </body>
 </html>

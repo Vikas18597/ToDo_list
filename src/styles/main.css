@@ -1,26 +1,48 @@
 body{
-    background-color: rgb(241, 241, 181);
-}
-
-.seperation{
+    background-color: white;
     display: flex;
     flex-direction: row;
 }
 
-.Status{
+.left-section{
     flex: 1;
+    display: flex;
+    flex-direction: column;
 }
 
-.content{
+.right-section{
     flex: 5;
     display: flex;
     flex-direction: column;
 }
 
-.addticket{
-    height: max(20vh, 100px);
+.add-ticket{
+    height: max(20vh, 150px);
 }
 
 .tickets{
-    flex : 5;
+    flex : 1;
+    display: flex;
+    flex-wrap: wrap;
 }
+
+li{
+    list-style:none;
+    margin:1em;
+}
+
+li a{
+    text-decoration:none;
+    color:#000;
+    background:rgb(250, 250, 170);
+    display:block;
+    height:10em;
+    width:10em;
+    padding:1em;
+}
+
+.right-section p {
+font-family: 'Delicious Handrawn', cursive;
+font-size: 1.5rem;
+}
+  
